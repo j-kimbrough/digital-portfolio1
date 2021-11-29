@@ -1,17 +1,27 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Digital Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/port.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body class="w3-content" style="max-width:1300px">
 
 <!-- First Grid: Logo & About -->
 <div class="w3-row">
   <div class="w3-half w3-black w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
-      <h1>My Logo</h1>
+      <h1>Jade Kimbrough
+        <p>Emerging Project Manager</p>
+      </h1>
     </div>
+    <div class="icon-bar">
+      <a href="https://github.com/j-kimbrough" target="_blank" class="github"><i class="fa fa-github"></i></a>
+      <!-- <a href="#" class="google"><i class="fa fa-google"></i></a> -->
+      <a href="https://www.linkedin.com/in/jade-kimbrough/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  </div>
     <div class="w3-padding-64">
       <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
       <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
@@ -22,7 +32,7 @@
   <div class="w3-half w3-blue-grey w3-container" style="height:700px">
     <div class="w3-padding-64 w3-center">
       <h1>About Me</h1>
-      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <img src="images/avatar.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
       <div class="w3-left-align w3-padding-large">
         <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
@@ -129,7 +139,7 @@
     <div class="w3-padding-64 w3-padding-large">
       <h1>Contact</h1>
       <p class="w3-opacity">GET IN TOUCH</p>
-      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="mailto:jadekimbrough@gmail.com" enctype="text/plain" onsubmit="location.href='thanks.html';">
         <div class="w3-section">
           <label>Name</label>
           <input class="w3-input" style="width:100%;" type="text" required name="Name">
